@@ -10,7 +10,7 @@ ms.topic: "include"
 ms.date: 09/19/2023
 ---
 
-1. Open Windows PowerShell, sign in to Azure, and set the subscription:
+1. Open a terminal window and enter the following command to sign in to your Azure and set the subscription:
 
    ```azurecli
    az login
@@ -19,7 +19,7 @@ ms.date: 09/19/2023
 
 1. Clone the sample application's source repo:
 
-   ```powershell
+   ```azurecli
    git clone https://github.com/Azure-Samples/nodejs-appsvc-cosmosdb-bottleneck.git
    ```
 
@@ -27,9 +27,9 @@ ms.date: 09/19/2023
 
 1. Go to the Node.js app's directory and deploy the sample app by using this PowerShell script:
 
-   ```powershell
+   ```azurecli
    cd nodejs-appsvc-cosmosdb-bottleneck
-   .\deploymentscript.ps1
+   pwsh ./deploymentscript.ps1
    ```
 
    > [!TIP]
